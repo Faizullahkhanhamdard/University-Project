@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+<body onmousedown="preventRightClick(event);">
+    <header class="about-header-section header-section">
+        <nav>
+            <div class="logo-part">
+                <img src="image/logo1.png" alt="">
+            </div>
+            <div class="menu-part" id="menu-container">
+                <img src="image/close.ico" alt="" class="images" id="close" onclick="hideMenu()">
+                <ul>
+                    <li><a href="university.html">home</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">about</a></li>
+                </ul>
+            </div>
+            <img src="image/menu.png" alt="" class="images" onclick="showMenu()">
+        </nav>
+        <main class="header-content">
+            <h1>contact us</h1>
+        </main>
+    </header>
+   <!-- ------------------contact-page-section--------- -->
+
+   <section class="contact-page-section">
+       <div class="contact-page-header">
+           <img src="image/banner2.jpg" alt="">
+       </div>
+       <div class="contact-page-container">
+           <div class="contact-page-address">
+           <div class="contact-page-col1">
+               <div class="contact-page-col1-part">
+                   <img src="image/home.ico" alt="">
+               </div>
+               <div class="contact-page-col1-part2">
+                   <h3>10th Dis Mina Burj</h3>
+                   <p>Kandahar,Afghanistan</p>
+               </div>
+           </div>
+           <div class="contact-page-col1">
+            <div class="contact-page-col1-part">
+                <img src="image/mail.ico" alt="">
+            </div>
+            <div class="contact-page-col1-part2">
+                <h3>Faizullahkhanhamdard@gmail.com</h3>
+                <p>Query your mail</p>
+            </div>
+        </div>
+        <div class="contact-page-col1">
+            <div class="contact-page-col1-part">
+                <img src="image/phone.ico" alt="">
+            </div>
+            <div class="contact-page-col1-part2">
+                <h3>0093-798343050</h3>
+                <p>Saturday- Monday 8AM-4PM</p>
+            </div>
+        </div>
+        </div>
+        <form class="contact-page-col2"> 
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+            <input type="text"placeholder="your subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+             <button type="submit">submit</button>
+ 
+        </form>
+       </div>
+   </section>
+   
+   <!-- ---------Abbout us----------------->
+   <section class="about-section">
+       <div class="about-header">
+           <h1>About us</h1>
+           <p>Experiencing us will not make you regret in your whole life</p>
+       </div>
+       <div class="about-container">
+           <a href="#"> <img src="image/instagram.png" alt=""></a>
+           <a href="#"> <img src="image/facebook.png" alt=""></a>
+           <a href="#"> <img src="image/linkedin.png" alt=""></a>
+           <a href="#"> <img src="image/twitter.png" alt=""></a>
+       </div>
+       <p>Made by Faizullah Khan Hamdard with Love</p>
+
+   </section>
+
+</body>
+</html>
